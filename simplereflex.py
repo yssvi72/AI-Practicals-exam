@@ -31,5 +31,4 @@ if __name__ == "__main__":
         if A_state == "clean" and B_state == "clean":
             break
 
-    print("Action: No Operation")
-    print("Agent has finished cleaning.")
+    print("Agent has finished cleaning all the rooms....")
