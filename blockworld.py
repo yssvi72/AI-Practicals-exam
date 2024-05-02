@@ -40,10 +40,7 @@ class BlockWorld:
                     plan.append((block, position))
                     self.apply_action((block, position))
                     break
-        return plan
-
-    def remove_threats(self, plan):
-        return [(block, destination) for block, destination in plan if destination is not None]
+        return plan    
 
 def draw_table(blocks, state):
     max_width = max(len(block) for block in blocks) + 2
