@@ -4,18 +4,18 @@ def joint_probability(burglary,earthquake,alarm,john_calls,mary_calls):
   burglary_p=0.001
   earthquake_p=0.002
   #Conditional probability:
-  p_alarm_given_BE={
+  p_alarm_given_BE = {
     (True,True): 0.95,
     (True,False):0.94,
     (False,True):0.29,
     (False,True):0.001
   }
-  p_john_calls_given_alarm{
+  p_john_calls_given_alarm = {
   True:0.90,
   False:0.05
   }
 
-  p_mary_calls_given_alarm{
+  p_mary_calls_given_alarm = {
   True:0.70,
   False:0.01
   }
