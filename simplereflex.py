@@ -25,7 +25,7 @@ def simple_reflex_agent():
     print(f"Action: {action}")
     print(f"Updated Environment Status: A: {A_state}, B: {B_state}, Agent Location: {agent_location}")
 
-def main():
+if __name__ == "__main__":
     while True:
         simple_reflex_agent()
         if A_state == "clean" and B_state == "clean":
@@ -33,6 +33,3 @@ def main():
 
     print("Action: No Operation")
     print("Agent has finished cleaning.")
-
-if __name__ == "__main__":
-    main()
